@@ -1121,7 +1121,6 @@ width: 60px;
 .timeline > li .timeline-panel {
   width: 100%;
   float: right;
-  padding: 0 20px 0 100px;
   position: relative;
   text-align: left;
 }
@@ -1159,7 +1158,6 @@ width: 60px;
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
   text-align: left;
-  padding: 0 20px 0 100px;
 }
 .timeline > li.timeline-inverted > .timeline-panel:before {
   border-left-width: 0;
@@ -1198,7 +1196,6 @@ width: 60px;
   .timeline > li .timeline-panel {
     width: 41%;
     float: left;
-    padding: 0 20px 20px 30px;
     text-align: right;
   }
   .timeline > li .timeline-image {
@@ -1215,15 +1212,11 @@ width: 60px;
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
     text-align: left;
-    padding: 0 30px 20px 20px;
   }
 }
 @media (min-width: 992px) {
   .timeline > li {
     min-height: 150px;
-  }
-  .timeline > li .timeline-panel {
-    padding: 0 20px 20px;
   }
   .timeline > li .timeline-image {
     width: 150px;
@@ -1235,16 +1228,10 @@ width: 60px;
     margin-top: 30px;
     line-height: 26px;
   }
-  .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 20px 20px;
-  }
 }
 @media (min-width: 1200px) {
   .timeline > li {
     min-height: 170px;
-  }
-  .timeline > li .timeline-panel {
-    padding: 0 20px 20px 100px;
   }
   .timeline > li .timeline-image {
     width: 170px;
@@ -1253,9 +1240,6 @@ width: 60px;
   }
   .timeline > li .timeline-image h4 {
     margin-top: 40px;
-  }
-  .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 100px 20px 20px;
   }
 }
 
@@ -1375,3 +1359,7 @@ h1.pageHeader {
 #portfolio .boxContent h4 {
 	font-size: 11px;
 }
+
+ #journey .text-muted {
+	 padding-bottom: 5px;
+ }

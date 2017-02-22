@@ -67,7 +67,7 @@ $(document).ready(function () {
             directionNav: false,
             touch: true,
             direction: "vertical",
-            slideshowSpeed: 3000
+            slideshowSpeed: 4000
         });
     }
 

@@ -148,11 +148,11 @@ $(window).load(function () {
                 columnWidth: $container.width() / $resize
             }
         });
-        var rightHeight = $('#works').height();
+        var rightHeight = $('#portfolio1').height();
         $('#filter a').click(function () {
 
 
-            $('#works').height(rightHeight);
+            $('#portfolio1').height(rightHeight);
             $('#filter a').removeClass('current');
 
 

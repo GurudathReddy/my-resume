@@ -1,4 +1,3 @@
-Angels Tropic Aquarium Store Website
+Interactive Resume
 
-To see the website in action 
-http://gurudathreddy.github.io/angels-tropic-aqua-wesite/
+http://gurudathreddy.github.io/resume/
